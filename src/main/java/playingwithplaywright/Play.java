@@ -14,7 +14,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 public class Play {
 	public static void main(String args[])  	 
 	{  
-		//Starting the playwright server
+		//Starting the playwright server server
 		Playwright pw=Playwright.create();
 		//Getting the browser context
 		//Browser browser=pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
