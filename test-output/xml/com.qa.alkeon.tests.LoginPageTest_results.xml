@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Alkeon Login Page Tests"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="30.770">
+    <properties></properties>
+
+            <testcase
+                name="loginTest"
+                time="30.039"
+                classname="com.qa.alkeon.tests.LoginPageTest">
+
+            <failure type="com.microsoft.playwright.TimeoutError" message="Error {
+  message=&apos;Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector &quot;//div[text()=&apos;SIGN IN&apos;]&quot;
+============================================================
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector &quot;//div[text()=&apos;SIGN IN&apos;]&quot;
+============================================================
+    at ProgressController.run (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/frames.js:1186:23)
+    at FrameDispatcher.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/dispatchers/dispatcher.js:378:46)
+}">
+                <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+    at ProgressController.run (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/frames.js:1186:23)
+    at FrameDispatcher.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/dispatchers/dispatcher.js:378:46)
+}
+                com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:103)com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:108)com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:94)com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:255)com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:626)com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:79)com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:625)com.microsoft.playwright.Page.click(Page.java:3370)com.qa.alkeon.pages.LandingPage.clickSignInButton(LandingPage.java:29)com.qa.alkeon.tests.LoginPageTest.loginTest(LoginPageTest.java:24)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:806)org.testng.TestRunner.run(TestRunner.java:601)org.testng.SuiteRunner.runTest(SuiteRunner.java:433)org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
+                    Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+    at ProgressController.run (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/frames.js:1186:23)
+    at FrameDispatcher.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-12312403369910797011/package/lib/server/dispatchers/dispatcher.js:378:46)
+}
+                    com.microsoft.playwright.impl.Connection.dispatch(Connection.java:188)com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:170)com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:101)com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:108)com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:94)com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:255)com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:626)com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:79)com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:625)com.microsoft.playwright.Page.click(Page.java:3370)com.qa.alkeon.pages.LandingPage.clickSignInButton(LandingPage.java:29)com.qa.alkeon.tests.LoginPageTest.loginTest(LoginPageTest.java:24)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:806)org.testng.TestRunner.run(TestRunner.java:601)org.testng.SuiteRunner.runTest(SuiteRunner.java:433)org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
+                ]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="loginPageNavigationTest"
+                time="0.731"
+                classname="com.qa.alkeon.tests.LoginPageTest">
+            </testcase>
+</testsuite>

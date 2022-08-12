@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-09T23:27:52 IST" name="Alkeon_Regression_Suite" finished-at="2022-08-09T23:29:31 IST" duration-ms="99585">
+    <groups>
+    </groups>
+    <test started-at="2022-08-09T23:27:52 IST" name="Alkeon Landing Page Tests" finished-at="2022-08-09T23:29:04 IST" duration-ms="72020">
+      <class name="com.qa.alkeon.tests.LandingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.alkeon.tests.LandingPageTest@fa49800]" started-at="2022-08-09T23:27:52 IST" name="setup" finished-at="2022-08-09T23:28:52 IST" duration-ms="60804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC001_Verify_landingPageTitle()[pri:0, instance:com.qa.alkeon.tests.LandingPageTest@fa49800]" started-at="2022-08-09T23:28:52 IST" name="TC001_Verify_landingPageTitle" finished-at="2022-08-09T23:28:52 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_Verify_landingPageTitle -->
+        <test-method signature="TC002_Verify_searchBrandOnLandingPage(java.lang.String)[pri:0, instance:com.qa.alkeon.tests.LandingPageTest@fa49800]" started-at="2022-08-09T23:28:57 IST" name="TC002_Verify_searchBrandOnLandingPage" data-provider="getBrandNameData" finished-at="2022-08-09T23:28:58 IST" duration-ms="257" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zivame]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.qa.alkeon.tests.LandingPageTest.TC002_Verify_searchBrandOnLandingPage(LandingPageTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Verify_searchBrandOnLandingPage -->
+        <test-method signature="TC002_Verify_searchBrandOnLandingPage(java.lang.String)[pri:0, instance:com.qa.alkeon.tests.LandingPageTest@fa49800]" started-at="2022-08-09T23:28:59 IST" name="TC002_Verify_searchBrandOnLandingPage" data-provider="getBrandNameData" finished-at="2022-08-09T23:29:02 IST" duration-ms="2135" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adidas]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.qa.alkeon.tests.LandingPageTest.TC002_Verify_searchBrandOnLandingPage(LandingPageTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Verify_searchBrandOnLandingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.alkeon.tests.LandingPageTest@fa49800]" started-at="2022-08-09T23:29:03 IST" name="tearDown" finished-at="2022-08-09T23:29:04 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.alkeon.tests.LandingPageTest -->
+    </test> <!-- Alkeon Landing Page Tests -->
+    <test started-at="2022-08-09T23:27:52 IST" name="Alkeon Login Page Tests" finished-at="2022-08-09T23:29:31 IST" duration-ms="99585">
+      <class name="com.qa.alkeon.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.alkeon.tests.LoginPageTest@1de76cc7]" started-at="2022-08-09T23:27:52 IST" name="setup" finished-at="2022-08-09T23:28:56 IST" duration-ms="64734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageNavigationTest()[pri:1, instance:com.qa.alkeon.tests.LoginPageTest@1de76cc7]" started-at="2022-08-09T23:28:56 IST" name="loginPageNavigationTest" finished-at="2022-08-09T23:28:58 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigationTest -->
+        <test-method signature="loginTest()[pri:2, instance:com.qa.alkeon.tests.LoginPageTest@1de76cc7]" started-at="2022-08-09T23:29:00 IST" name="loginTest" finished-at="2022-08-09T23:29:30 IST" duration-ms="30020" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+    at ProgressController.run (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/frames.js:1158:23)
+    at FrameDispatcher.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/dispatchers/dispatcher.js:352:46)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+    at ProgressController.run (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/frames.js:1158:23)
+    at FrameDispatcher.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/dispatchers/dispatcher.js:352:46)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:103)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:106)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:94)
+at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:255)
+at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:626)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:79)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:625)
+at com.microsoft.playwright.Page.click(Page.java:3370)
+at com.qa.alkeon.pages.LandingPage.clickSignInButton(LandingPage.java:29)
+at com.qa.alkeon.tests.LoginPageTest.loginTest(LoginPageTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//div[text()='SIGN IN']"
+============================================================
+    at ProgressController.run (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/frames.js:1158:23)
+    at FrameDispatcher.click (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/y6/z2t9tm0143ddkd5fjlt2dfbh0000gn/T/playwright-java-9412065089847634609/package/lib/server/dispatchers/dispatcher.js:352:46)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:186)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:168)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:101)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.alkeon.tests.LoginPageTest@1de76cc7]" started-at="2022-08-09T23:29:31 IST" name="tearDown" finished-at="2022-08-09T23:29:31 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.alkeon.tests.LoginPageTest -->
+    </test> <!-- Alkeon Login Page Tests -->
+  </suite> <!-- Alkeon_Regression_Suite -->
+</testng-results>

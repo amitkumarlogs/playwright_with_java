@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Alkeon Landing Page Tests"
+           tests="3"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="0.508">
+    <properties></properties>
+
+            <testcase
+                name="TC002_Verify_searchBrandOnLandingPage"
+                time="0.187"
+                classname="com.qa.alkeon.tests.LandingPageTest">
+
+            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+                org.testng.Assert.fail(Assert.java:110)org.testng.Assert.failNotEquals(Assert.java:1413)org.testng.Assert.assertEqualsImpl(Assert.java:149)org.testng.Assert.assertEquals(Assert.java:131)org.testng.Assert.assertEquals(Assert.java:976)org.testng.Assert.assertEquals(Assert.java:1010)com.qa.alkeon.tests.LandingPageTest.TC002_Verify_searchBrandOnLandingPage(LandingPageTest.java:40)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:806)org.testng.TestRunner.run(TestRunner.java:601)org.testng.SuiteRunner.runTest(SuiteRunner.java:433)org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="TC002_Verify_searchBrandOnLandingPage"
+                time="0.296"
+                classname="com.qa.alkeon.tests.LandingPageTest">
+
+            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+                org.testng.Assert.fail(Assert.java:110)org.testng.Assert.failNotEquals(Assert.java:1413)org.testng.Assert.assertEqualsImpl(Assert.java:149)org.testng.Assert.assertEquals(Assert.java:131)org.testng.Assert.assertEquals(Assert.java:976)org.testng.Assert.assertEquals(Assert.java:1010)com.qa.alkeon.tests.LandingPageTest.TC002_Verify_searchBrandOnLandingPage(LandingPageTest.java:40)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:806)org.testng.TestRunner.run(TestRunner.java:601)org.testng.SuiteRunner.runTest(SuiteRunner.java:433)org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="TC001_Verify_landingPageTitle"
+                time="0.025"
+                classname="com.qa.alkeon.tests.LandingPageTest">
+            </testcase>
+</testsuite>
